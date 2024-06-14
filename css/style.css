@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+} */
+
+
+/* .text {
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-style: initial;
+    font-weight: bold;
+} */
+
+:root {
+    --main-bg-color: #00e3ff;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    /* color: white; */
+    /* border: 2px solid red; */
+}
+
+nav {
+    display: flex;
+    border: 2px solid red;
+    height: 60px;
+}
+
+.logo {
+    padding: 6px;
+    height: 48px;
+    display: flex;
+}
+
+.pluslogo {
+    padding: 23px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #413b3b;
+    /* font-weight: bold; */
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 420px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.container {
+    /* height: 150vw; */
+    height: 129vw;
+}
+
+.slider {
+    margin: 0px -70px;
+    width: 1589px;
+    /* margin: 0 220px;
+    width: 587px; */
+    /* margin: 0 106px;
+    height: 30vw;
+    width: 70vw; */
+}
+
+.products {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #fbd7d7;
+}
+
+.products img {
+    margin: 0 8px;
+}
+
+
+/* THIS IS IMPORTANT COMMENT FOR BELOW LINE */
+
+
+/* AGAR IMAGE KO MARGINE DENI HO TO PHILE CLASS LIKHE THEN IMAGE  */
+
+
+/* 0 - TOP BOTTOM KIN MARGIN HAI, 10PX- LEFT RIGHT KI MARGIN HAI */
+
+p {
+    margin: 0 35px;
+}
+
+
+/* .products1 img p {
+    margin: 0 35px;
+}
+
+
+.products2 img p {
+    margin: 0 35px;
+}
+
+.product2 img p {
+    text-align: center;
+}
+
+.products3 img p {
+    margin: 0 35px;
+}
+
+.products4 img p {
+    margin: 0 35px;
+}
+
+.products5 img p {
+    margin: 0 35px;
+}
+
+.products6 img p {
+    margin: 0 35px;
+}
+
+.products7 img p {
+    margin: 0 35px;
+}
+
+.products8 img p {
+    margin: 0 35px;
+}
+
+.products9 img p {
+    margin: 0 35px;
+}
+
+.products10 img p {
+    margin: 0 35px;
+} */
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 40px;
+    border: 2px solid red;
+}
